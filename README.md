@@ -17,9 +17,9 @@ This script scans a specified directory for hidden PHP files and PHP files refer
 
 ## Usage
 
-\`\`\`bash
+```bash
 ./script.sh <directory_to_scan> <quarantine_directory>
-\`\`\`
+```
 
 ### Arguments:
 
@@ -28,9 +28,9 @@ This script scans a specified directory for hidden PHP files and PHP files refer
 
 ### Example:
 
-\`\`\`bash
+```bash
 ./script.sh /var/www/html /var/quarantine
-\`\`\`
+```
 
 This command scans the `/var/www/html` directory for hidden PHP files, quarantines them in `/var/quarantine`, and cleans up malicious code from the original PHP files.
 
