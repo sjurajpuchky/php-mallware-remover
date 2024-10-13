@@ -3,6 +3,8 @@
 
 This script scans a specified directory for hidden PHP files and PHP files referencing hidden files, moves the hidden files to a quarantine folder, and cleans up malicious references within PHP files.
 
+Simple Tool to PHP Mallware removal from Prestashop, Wordpress, Joomla and ect...
+
 ## Features
 
 - **Hidden PHP File Detection**: Detects hidden files that contain PHP code but do not have a `.php` extension.
